@@ -16,7 +16,7 @@ link: "https://github.com/syedhummadhyaseen/python-expense-tracker"
 category: "javascript",
 description: "An interactive personal portfolio showcasing my skills and projects.",
 technologies: "HTML, CSS, JavaScript",
-link: "#"
+link: "https://github.com/Syedhummadhyaseen/interactive-portfolio"
 
     }
 ];
