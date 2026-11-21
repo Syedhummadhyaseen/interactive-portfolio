@@ -18,7 +18,14 @@ description: "An interactive personal portfolio showcasing my skills and project
 technologies: "HTML, CSS, JavaScript",
 link: "https://github.com/Syedhummadhyaseen/interactive-portfolio"
 
-    }
+    },
+   {
+    name: "To-Do App",
+    category: "javascript",
+    description: "A task manager where you can add, complete and delete tasks. Tasks are saved in the browser using localStorage.",
+    technologies: "HTML, CSS, JavaScript",
+    link: "https://github.com/Syedhummadhyaseen/todo-app"
+} 
 ];
 
 function displayProjects(projectArray) {
