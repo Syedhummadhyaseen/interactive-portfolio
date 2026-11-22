@@ -214,14 +214,14 @@ nav a:hover {
     border-radius: 6px;
     padding: 7px 12px;
     font-size: 18px;
-    cursor: pointer;
+cursor: pointer;
 }
 
 .close-popup:hover {
     background: #dc2626;
 }
 
-#popupGithub {
+#popupGithub, #popupDemo {
     display: inline-block;
     background: #22c55e;
     color: white;
@@ -229,4 +229,9 @@ nav a:hover {
     margin-top: 15px;
     border-radius: 8px;
     text-decoration: none;
+}
+
+#popupDemo {
+    margin-left: 10px;
+    background: #3b82f6;
 }

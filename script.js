@@ -16,15 +16,17 @@ link: "https://github.com/syedhummadhyaseen/python-expense-tracker"
 category: "javascript",
 description: "An interactive personal portfolio showcasing my skills and projects.",
 technologies: "HTML, CSS, JavaScript",
-link: "https://github.com/Syedhummadhyaseen/interactive-portfolio"
-
+link: "https://github.com/Syedhummadhyaseen/interactive-portfolio",
+demo: "https://syedhummadhyaseen.github.io/interactive-portfolio/"
+    
     },
    {
     name: "To-Do App",
     category: "javascript",
     description: "A task manager where you can add, complete and delete tasks. Tasks are saved in the browser using localStorage.",
     technologies: "HTML, CSS, JavaScript",
-    link: "https://github.com/Syedhummadhyaseen/todo-app"
+    link: "https://github.com/Syedhummadhyaseen/todo-app",
+    demo: "https://syedhummadhyaseen.github.io/todo-app/"
 } 
 ];
 
@@ -103,6 +105,15 @@ function openPopup(project) {
         "Technologies: " + project.technologies;
 
     document.getElementById("popupGithub").href = project.link;
+
+    const demoLink = document.getElementById("popupDemo");
+
+if (project.demo) {
+    demoLink.href = project.demo;
+    demoLink.style.display = "inline-block";
+} else {
+    demoLink.style.display = "none";
+}
 
     document.getElementById("projectPopup").style.display = "flex";
 }
