@@ -35,6 +35,14 @@ demo: "https://syedhummadhyaseen.github.io/interactive-portfolio/"
     technologies: "HTML, CSS, JavaScript, GitHub API",
     link: "https://github.com/Syedhummadhyaseen/github-finder",
     demo: "https://syedhummadhyaseen.github.io/github-finder/"
+},
+{
+    name: "Quiz App",
+    category: "javascript",
+    description: "A multiple-choice quiz with instant feedback, score tracking and a results screen, built with plain JavaScript.",
+    technologies: "HTML, CSS, JavaScript",
+    link: "https://github.com/Syedhummadhyaseen/quiz-app",
+    demo: "https://syedhummadhyaseen.github.io/quiz-app/"
 }
 ];
 
