@@ -27,7 +27,15 @@ demo: "https://syedhummadhyaseen.github.io/interactive-portfolio/"
     technologies: "HTML, CSS, JavaScript",
     link: "https://github.com/Syedhummadhyaseen/todo-app",
     demo: "https://syedhummadhyaseen.github.io/todo-app/"
-} 
+} ,
+{
+    name: "GitHub Profile Finder",
+    category: "javascript",
+    description: "A web app that searches GitHub users and displays their profile and latest repositories using live data from the GitHub API.",
+    technologies: "HTML, CSS, JavaScript, GitHub API",
+    link: "https://github.com/Syedhummadhyaseen/github-finder",
+    demo: "https://syedhummadhyaseen.github.io/github-finder/"
+}
 ];
 
 function displayProjects(projectArray) {
