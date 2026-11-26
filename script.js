@@ -43,6 +43,14 @@ demo: "https://syedhummadhyaseen.github.io/interactive-portfolio/"
     technologies: "HTML, CSS, JavaScript",
     link: "https://github.com/Syedhummadhyaseen/quiz-app",
     demo: "https://syedhummadhyaseen.github.io/quiz-app/"
+},
+{
+  name: "GitHub Profile Finder (React)",
+  category: "Frontend",
+  description: "React rebuild of the GitHub Finder. Search any username to see their profile and latest repositories, built with components and useState.",
+  technologies: "React, Vite, JavaScript, GitHub API",
+  link: "https://github.com/Syedhummadhyaseen/github-finder-react",
+  demo: "https://syedhummadhyaseen.github.io/github-finder-react/"
 }
 ];
 
